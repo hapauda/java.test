@@ -28,6 +28,7 @@ public class de {
                 break;
             case "RobO":
                 System.out.println("||||||");
+                break;
             default:
                 throw new IllegalArgumentException("Tamanho de boca invalido");
         }
@@ -37,12 +38,14 @@ public class de {
         switch (formato) {
             case "p":
             case "P":
-                System.out.println("  P  ");
+                System.out.println(" P ");
                 break;
             case ">":
-                System.out.println("  >  ");
+                System.out.println(" > ");
+                break;
             case "O":
-                System.out.println("   O   ");    
+                System.out.println("  O  ");  
+                break;  
             default:
                 throw new IllegalArgumentException("Tamanho de boca invalido");
         }
